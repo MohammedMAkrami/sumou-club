@@ -8,6 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="favicon.png">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -15,7 +16,7 @@
   <header class="nav" id="top">
     <div class="container nav-inner">
       <a href="#top" class="brand">
-        <span class="brand-mark" aria-hidden="true">س</span>
+        <img src="logo.png" alt="شعار نادي سمو" class="brand-logo" width="44" height="44">
         <span>نادي سمو</span>
       </a>
       <button class="nav-toggle" aria-label="القائمة" aria-expanded="false">☰</button>
@@ -24,7 +25,7 @@
         <a href="#values">قيمنا</a>
         <a href="#teams">فرقنا</a>
         <a href="#events">الفعاليات</a>
-        <a href="#join" class="btn btn-sm">انضم لنا</a>
+        <a href="https://linktr.ee/sumoupmu" target="_blank" rel="noopener" class="btn btn-sm">انضم لنا</a>
       </nav>
     </div>
   </header>
@@ -32,11 +33,12 @@
   <main>
     <section class="hero">
       <div class="container hero-inner">
+        <img src="logo.png" alt="شعار نادي سمو" class="hero-logo" width="180" height="180">
         <p class="eyebrow">جامعة الأمير محمد بن فهد · PMU</p>
         <h1>نادي سمو <span class="accent">التطوعي</span></h1>
         <p class="lead">نسمو بالعطاء، ونصنع أثرًا يبقى. مجتمع طلابي يجمع الطلاب والطالبات لخدمة الجامعة والمجتمع من خلال العمل التطوعي والفعاليات.</p>
         <div class="hero-actions">
-          <a href="#join" class="btn">انضم للنادي</a>
+          <a href="https://linktr.ee/sumoupmu" target="_blank" rel="noopener" class="btn">انضم للنادي</a>
           <a href="#events" class="btn btn-ghost">شوف فعالياتنا</a>
         </div>
       </div>
@@ -105,16 +107,11 @@
       <div class="container">
         <p class="eyebrow">الفعاليات</p>
         <h2>فعالياتنا القادمة</h2>
-        <article class="event">
-          <div class="event-date">
-            <span class="event-month">نوفمبر</span>
-            <span class="event-year">2026</span>
-          </div>
-          <div class="event-body">
-            <span class="tag">قريبًا</span>
-            <h3>Car Meet 🚗</h3>
-            <p>فعالية لعشاق السيارات بالتعاون مع نادي المالية (Finance Club). التفاصيل والموعد النهائي بننشرها قريب بعد اعتماد الحياة الطلابية.</p>
-          </div>
+        <article class="event event-soon">
+          <span class="tag">قريبًا</span>
+          <h3>ترقّبوا فعاليتنا القادمة ✨</h3>
+          <p>تابعونا على انستقرام عشان توصلكم التفاصيل أول بأول.</p>
+          <a href="https://www.instagram.com/sumoupmu" target="_blank" rel="noopener" class="btn btn-ghost">تابعنا على انستقرام</a>
         </article>
       </div>
     </section>
@@ -123,8 +120,7 @@
       <div class="container join-inner">
         <h2>تبي تصير جزء من سمو؟</h2>
         <p>انضم لفريقنا وشارك في تنظيم الفعاليات واكسب ساعات تطوعية وخبرة حقيقية.</p>
-        <!-- TODO: حط رابط نموذج التسجيل (Google Forms أو غيره) مكان # -->
-        <a href="#" class="btn btn-light">سجّل الآن</a>
+        <a href="https://linktr.ee/sumoupmu" target="_blank" rel="noopener" class="btn btn-light">سجّل الآن</a>
       </div>
     </section>
   </main>
@@ -132,10 +128,9 @@
   <footer class="footer">
     <div class="container footer-inner">
       <p>© <span id="year"></span> نادي سمو التطوعي · جامعة الأمير محمد بن فهد</p>
-      <!-- TODO: حط روابط حسابات النادي -->
       <div class="socials">
-        <a href="#" aria-label="Instagram">Instagram</a>
-        <a href="#" aria-label="X">X</a>
+        <a href="https://www.instagram.com/sumoupmu" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://linktr.ee/sumoupmu" target="_blank" rel="noopener">Linktree</a>
       </div>
     </div>
   </footer>
