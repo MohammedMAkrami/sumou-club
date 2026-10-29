@@ -4,7 +4,7 @@ The official website of **Sumou Volunteer Club** at Prince Mohammad bin Fahd Uni
 
 🔗 **Live site:** https://sumouclub.vercel.app
 
-![Sumou Club logo](logo.png)
+<img src="logo.png" alt="Sumou Club logo" width="140">
 
 ## Features
 
