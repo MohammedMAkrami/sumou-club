@@ -13,7 +13,7 @@ links.querySelectorAll("a").forEach((a) =>
 );
 
 // Reveal on scroll
-const items = document.querySelectorAll(".card, .team, .event, .two-col");
+const items = document.querySelectorAll(".card, .team, .event, .two-col, .qr-card, .contact-box");
 items.forEach((el) => el.classList.add("reveal"));
 const io = new IntersectionObserver(
   (entries) =>
